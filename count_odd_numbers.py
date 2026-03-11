@@ -7,3 +7,5 @@ for i in range(1,11):
 
     if number % 2 == 0:
         odd += 1
+
+print(f"There are {odd} odd numbers")
