@@ -13,6 +13,6 @@ for n in numbers:
     if numbers.count(n) > 1 and n not in seen_as_duplicate:
         print(n)
         seen_as_duplicate.append(n)
-        
+
 if not seen_as_duplicate:
     print("No duplicates found.")
