@@ -5,8 +5,9 @@ for i in range (10):
     numbers.append(num)
 
 duplicate_numbers = []
+seen_as_duplicate = []
 
 for n in numbers:
-    if numbers.count(n) > 1:
+    if numbers.count(n) > 1 and n not in seen_as_duplicate:
         duplicate_numbers.append(n)
 
