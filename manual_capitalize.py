@@ -12,3 +12,12 @@ for char in text [0]:
         result += UPPER[index]
     else:
         result += char
+
+for char in text [1:]:
+    if char in UPPER:
+        index = UPPER.find(char)
+        result += lower[index]
+    else:
+        result += char
+
+print(f"Output: {result}")
