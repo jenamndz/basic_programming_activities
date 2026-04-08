@@ -5,3 +5,5 @@ counter = 0
 for char in text:
     if char == target:
         counter += 1
+
+print(f"Output: {counter}")
