@@ -8,3 +8,8 @@ while True:
             lowest = number
     except ValueError:
         break
+
+if lowest is not None:
+    print("The lowest number entered is:", lowest)
+else:
+    print("No valid numbers were entered.")
