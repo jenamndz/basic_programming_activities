@@ -8,7 +8,7 @@ while True:
             highest = number
     except ValueError:
         break
-        
+
 if highest is not None:
     print("The highest number entered is:", highest)
 else:
