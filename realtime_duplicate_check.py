@@ -5,3 +5,11 @@ while True:
     if not user_input.isdigit():
         print("Invalid input. Stopping program.")
         break
+
+    num = int(user_input)
+
+    if num in numbers:
+        print(f"{num} - Duplicate")
+    else:
+        print(f"{num} - Unique")
+        numbers.append(num)
