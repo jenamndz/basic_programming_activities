@@ -7,3 +7,10 @@ while True:
         numbers.append(number)
     except ValueError:
         break
+
+if numbers:
+    numbers.sort(reverse=True)
+    print("\nNumbers from highest to lowest:")
+    print(numbers)
+else:
+    print("No valid numbers were entered.")
