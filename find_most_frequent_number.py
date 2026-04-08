@@ -9,3 +9,9 @@ while True:
         numbers.append(number)
     except ValueError:
         break
+
+
+if numbers:
+    most_frequent = max(set(numbers), key=numbers.count)
+
+    occurrence = numbers.count(most_frequent)
