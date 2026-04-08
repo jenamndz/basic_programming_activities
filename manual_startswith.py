@@ -5,3 +5,7 @@ n = len(prefix)
 
 beginning = text[:n]
 
+if prefix == beginning:
+    print("Output: True")
+else:
+    print("Output: False")
