@@ -7,3 +7,5 @@ if text[-n:] == suffix:
     result = text[:-n]
 else:
     result = text
+
+print(f"Output: {result}")
