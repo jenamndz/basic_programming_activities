@@ -10,3 +10,5 @@ for char in text:
         result += UPPER[index]
     else:
         result += char
+
+print(f"Output: {result}")
