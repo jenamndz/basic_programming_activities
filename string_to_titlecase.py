@@ -1,3 +1,3 @@
 name = input("Enter fullname: ")
 
-print("Uppercase:", name.title())
+print("Titlecase:", name.title())
