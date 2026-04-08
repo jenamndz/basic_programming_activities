@@ -6,3 +6,5 @@ for i in range(len(text)):
         result += text[i].upper()
     else:
         result += text[i].lower()
+
+print(f"Output: {result}")
