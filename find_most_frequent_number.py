@@ -1,0 +1,11 @@
+numbers = []
+
+print("Enter numbers (Type 'stop' or any letter to end):")
+
+while True:
+    user_input = input("Enter a number: ")
+    try:
+        number = float(user_input)
+        numbers.append(number)
+    except ValueError:
+        break
