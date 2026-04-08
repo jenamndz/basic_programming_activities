@@ -20,4 +20,4 @@ for char in text [1:]:
     else:
         result += char
 
-print(f"Output: {result}")
+print(f"Result: {result}")
