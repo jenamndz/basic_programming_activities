@@ -11,3 +11,5 @@ for char in text:
     elif char in lower:
         index = lower.find(char)
         result += UPPER[index]
+
+print(f"Output: {result}")
