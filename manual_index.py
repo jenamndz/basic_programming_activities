@@ -7,3 +7,8 @@ for i in range(len(text)):
     if text[i] == target:
         position = i
         break
+
+if position != -1:
+    print(f"Output: {position}")
+else:
+    print("Character not found.")
