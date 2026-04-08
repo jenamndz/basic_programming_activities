@@ -7,3 +7,9 @@ while True:
         numbers.append(number)
     except ValueError:
         break
+
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print("The average number is:", average)
+else:
+    print("No numbers entered")
