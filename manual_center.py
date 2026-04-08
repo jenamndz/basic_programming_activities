@@ -8,3 +8,5 @@ while len(text) < total_length:
         break
 
     text = text + " "
+
+print(f"Output: '{text}'")
